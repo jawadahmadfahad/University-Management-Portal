@@ -1,0 +1,11 @@
+E:\JAD\Blazor Web App\UniversityApp.Entities\bin\Debug\net8.0\UniversityApp.Entities.deps.json
+E:\JAD\Blazor Web App\UniversityApp.Entities\bin\Debug\net8.0\UniversityApp.Entities.dll
+E:\JAD\Blazor Web App\UniversityApp.Entities\bin\Debug\net8.0\UniversityApp.Entities.pdb
+E:\JAD\Blazor Web App\UniversityApp.Entities\obj\Debug\net8.0\UniversityApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\JAD\Blazor Web App\UniversityApp.Entities\obj\Debug\net8.0\UniversityApp.Entities.AssemblyInfoInputs.cache
+E:\JAD\Blazor Web App\UniversityApp.Entities\obj\Debug\net8.0\UniversityApp.Entities.AssemblyInfo.cs
+E:\JAD\Blazor Web App\UniversityApp.Entities\obj\Debug\net8.0\UniversityApp.Entities.csproj.CoreCompileInputs.cache
+E:\JAD\Blazor Web App\UniversityApp.Entities\obj\Debug\net8.0\UniversityApp.Entities.dll
+E:\JAD\Blazor Web App\UniversityApp.Entities\obj\Debug\net8.0\refint\UniversityApp.Entities.dll
+E:\JAD\Blazor Web App\UniversityApp.Entities\obj\Debug\net8.0\UniversityApp.Entities.pdb
+E:\JAD\Blazor Web App\UniversityApp.Entities\obj\Debug\net8.0\ref\UniversityApp.Entities.dll

@@ -1,0 +1,56 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+debug/
+release/
+
+# Uncomment if using Azure
+# .azure/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Dotnet-generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Secret files
+appsettings.Development.json
+secrets.json
+
+# Node / npm
+node_modules/
+
+# Others
+*.db
+*.sqlite
+*.mdb
+*.sdf
+*.mdf
+*.ldf
+
+# Ignore publish output
+publish/
+wwwroot/dist/
+dist/

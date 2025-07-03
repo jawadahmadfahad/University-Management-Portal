@@ -1,0 +1,141 @@
+﻿@page "/students"
+@inject IStudentService StudentService
+@using UniversityApp.Entities
+@rendermode InteractiveServer
+
+<h3 class="mb-4 text-primary">Manage Students</h3>
+
+<!-- 🔍 Search Bar -->
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Search by name, email, or department..." @bind="SearchTerm" />
+    <button class="btn btn-outline-primary" @onclick="SearchStudents">Search</button>
+    <button class="btn btn-outline-secondary" @onclick="ResetSearch">Reset</button>
+</div>
+
+<!-- 👤 Add/Edit Form -->
+<div class="card mb-3">
+    <div class="card-body">
+        <form class="row g-3" @onsubmit="HandleSubmit">
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Name" @bind="NewStudent.Name" required />
+            </div>
+            <div class="col-md-4">
+                <input type="email" class="form-control" placeholder="Email" @bind="NewStudent.Email" required />
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Department" @bind="NewStudent.Department" required />
+            </div>
+            <div class="col-md-2 d-grid">
+                <button type="submit" class="btn btn-success">@((IsEditMode ? "Update" : "Add"))</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- 📋 Student List Table -->
+@if (studentList.Count == 0)
+{
+        <div class="alert alert-info">No students found.</div>
+}
+else
+{
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Student ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Department</th>
+                    <th>Created At</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var student in studentList)
+            {
+                        <tr>
+                            <td>@student.Id</td>
+                            <td>@student.Name</td>
+                            <td>@student.Email</td>
+                            <td>@student.Department</td>
+                            <td>@student.CreatedAt.ToShortDateString()</td>
+                            <td>
+                                <button class="btn btn-sm btn-warning me-2" @onclick="() => EditStudent(student)">Edit</button>
+                                <button class="btn btn-sm btn-danger" @onclick="() => DeleteStudent(student.Id)">Delete</button>
+                            </td>
+                        </tr>
+            }
+            </tbody>
+        </table>
+}
+
+@code {
+    private List<Student> studentList = new();
+    private Student NewStudent = new();
+    private bool IsEditMode = false;
+    private string SearchTerm = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadStudents();
+    }
+
+    private async Task LoadStudents()
+    {
+        studentList = await StudentService.GetAllStudentsAsync();
+    }
+
+    private async Task SearchStudents()
+    {
+        if (!string.IsNullOrWhiteSpace(SearchTerm))
+        {
+            studentList = await StudentService.SearchStudentsAsync(SearchTerm);
+        }
+        else
+        {
+            await LoadStudents();
+        }
+    }
+
+    private async Task ResetSearch()
+    {
+        SearchTerm = string.Empty;
+        await LoadStudents();
+    }
+
+    private async Task HandleSubmit()
+    {
+        if (IsEditMode)
+        {
+            await StudentService.UpdateStudentAsync(NewStudent);
+        }
+        else
+        {
+            NewStudent.CreatedAt = DateTime.Now;
+            await StudentService.AddStudentAsync(NewStudent);
+        }
+
+        NewStudent = new();
+        IsEditMode = false;
+        await LoadStudents();
+    }
+
+    private void EditStudent(Student student)
+    {
+        NewStudent = new Student
+            {
+                Id = student.Id,
+                Name = student.Name,
+                Email = student.Email,
+                Department = student.Department,
+                CreatedAt = student.CreatedAt
+            };
+        IsEditMode = true;
+    }
+
+    private async Task DeleteStudent(int id)
+    {
+        await StudentService.DeleteStudentAsync(id);
+        await LoadStudents();
+    }
+}

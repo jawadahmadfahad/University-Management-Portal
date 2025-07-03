@@ -1,0 +1,115 @@
+﻿@page "/faculty"
+@inject IFacultyService FacultyService
+@using FacultyModel = UniversityApp.Entities.Faculty
+@rendermode InteractiveServer
+
+<h3 class="mb-4 text-primary">Manage Faculty</h3>
+
+<div class="card mb-3 shadow">
+    <div class="card-body">
+        <form class="row g-3" @onsubmit="HandleSubmit">
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Name" @bind="NewFaculty.Name" required />
+            </div>
+            <div class="col-md-4">
+                <input type="email" class="form-control" placeholder="Email" @bind="NewFaculty.Email" required />
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Department" @bind="NewFaculty.Department" required />
+            </div>
+            <div class="col-md-2 d-grid">
+                <button type="submit" class="btn btn-success">
+                    @((IsEditMode ? "Update" : "Add"))
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (facultyList.Count == 0)
+{
+        <div class="alert alert-info">No faculty members found.</div>
+}
+else
+{
+        <table class="table table-hover shadow">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Department</th>
+                    <th>Created At</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var faculty in facultyList)
+            {
+                    <tr>
+                        <td>@faculty.Id</td>
+                        <td>@faculty.Name</td>
+                        <td>@faculty.Email</td>
+                        <td>@faculty.Department</td>
+                        <td>@faculty.CreatedAt.ToShortDateString()</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning me-2" @onclick="() => EditFaculty(faculty)">Edit</button>
+                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteFaculty(faculty.Id)">Delete</button>
+                        </td>
+                    </tr>
+            }
+            </tbody>
+        </table>
+}
+
+@code {
+    private List<FacultyModel> facultyList = new();
+    private FacultyModel NewFaculty = new();
+    private bool IsEditMode = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadFaculty();
+    }
+
+    private async Task LoadFaculty()
+    {
+        facultyList = await FacultyService.GetAllFacultiesAsync();
+    }
+
+    private async Task HandleSubmit()
+    {
+        if (IsEditMode)
+        {
+            await FacultyService.UpdateFacultyAsync(NewFaculty);
+        }
+        else
+        {
+            NewFaculty.CreatedAt = DateTime.Now;
+            await FacultyService.AddFacultyAsync(NewFaculty);
+        }
+
+        NewFaculty = new();
+        IsEditMode = false;
+        await LoadFaculty();
+    }
+
+    private void EditFaculty(FacultyModel faculty)
+    {
+        NewFaculty = new FacultyModel
+            {
+                Id = faculty.Id,
+                Name = faculty.Name,
+                Email = faculty.Email,
+                Department = faculty.Department,
+                CreatedAt = faculty.CreatedAt
+            };
+        IsEditMode = true;
+    }
+
+    private async Task DeleteFaculty(int id)
+    {
+        await FacultyService.DeleteFacultyAsync(id);
+        await LoadFaculty();
+    }
+}

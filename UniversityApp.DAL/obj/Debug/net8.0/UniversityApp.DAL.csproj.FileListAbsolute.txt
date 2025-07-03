@@ -1,0 +1,15 @@
+E:\JAD\Blazor Web App\UniversityApp.DAL\bin\Debug\net8.0\UniversityApp.DAL.deps.json
+E:\JAD\Blazor Web App\UniversityApp.DAL\bin\Debug\net8.0\UniversityApp.DAL.dll
+E:\JAD\Blazor Web App\UniversityApp.DAL\bin\Debug\net8.0\UniversityApp.DAL.pdb
+E:\JAD\Blazor Web App\UniversityApp.DAL\bin\Debug\net8.0\UniversityApp.Entities.dll
+E:\JAD\Blazor Web App\UniversityApp.DAL\bin\Debug\net8.0\UniversityApp.Entities.pdb
+E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.csproj.AssemblyReference.cache
+E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.AssemblyInfoInputs.cache
+E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.AssemblyInfo.cs
+E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.csproj.CoreCompileInputs.cache
+E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\Universi.DD1DBE4C.Up2Date
+E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.dll
+E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\refint\UniversityApp.DAL.dll
+E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.pdb
+E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\ref\UniversityApp.DAL.dll

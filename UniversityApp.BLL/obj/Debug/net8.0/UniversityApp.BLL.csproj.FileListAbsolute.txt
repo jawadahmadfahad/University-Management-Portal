@@ -1,0 +1,17 @@
+E:\JAD\Blazor Web App\UniversityApp.BLL\bin\Debug\net8.0\UniversityApp.BLL.deps.json
+E:\JAD\Blazor Web App\UniversityApp.BLL\bin\Debug\net8.0\UniversityApp.BLL.dll
+E:\JAD\Blazor Web App\UniversityApp.BLL\bin\Debug\net8.0\UniversityApp.BLL.pdb
+E:\JAD\Blazor Web App\UniversityApp.BLL\bin\Debug\net8.0\UniversityApp.DAL.dll
+E:\JAD\Blazor Web App\UniversityApp.BLL\bin\Debug\net8.0\UniversityApp.Entities.dll
+E:\JAD\Blazor Web App\UniversityApp.BLL\bin\Debug\net8.0\UniversityApp.DAL.pdb
+E:\JAD\Blazor Web App\UniversityApp.BLL\bin\Debug\net8.0\UniversityApp.Entities.pdb
+E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.csproj.AssemblyReference.cache
+E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.AssemblyInfoInputs.cache
+E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.AssemblyInfo.cs
+E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.csproj.CoreCompileInputs.cache
+E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\Universi.16FCFA96.Up2Date
+E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.dll
+E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\refint\UniversityApp.BLL.dll
+E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.pdb
+E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\ref\UniversityApp.BLL.dll
