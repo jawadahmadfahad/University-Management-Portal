@@ -1,6 +1,7 @@
 ﻿@page "/courses"
-@inject ICourseService CourseService
 @using UniversityApp.Entities
+@using UniversityApp.BLL.Services.Api
+@inject CourseApiService CourseService
 @rendermode InteractiveServer
 
 <h3 class="mb-4 text-primary">Manage Courses</h3>
@@ -65,7 +66,7 @@
 
     private async Task LoadCourses()
     {
-        courseList = await CourseService.GetAllCoursesAsync();
+        courseList = await CourseService.GetCoursesAsync();
     }
 
     private async Task HandleSubmit()

@@ -1,0 +1,763 @@
+{
+  "Version": 1,
+  "Hash": "cZCvVfal0zdV4sg6AKOWEOh+JVQ4lOKxJ5HgI6Xas/E=",
+  "Source": "UniversityApp.API",
+  "BasePath": "_content/UniversityApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "E:\\JAD\\Blazor Web App\\UniversityApp\\UniversityApp.csproj",
+      "Version": 2,
+      "Source": "UniversityApp",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UniversityApp\\wwwroot",
+      "Source": "UniversityApp",
+      "ContentRoot": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\",
+      "BasePath": "_content/UniversityApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\JAD\\Blazor Web App\\UniversityApp.API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\UniversityApp.API.styles.css",
+      "SourceId": "UniversityApp.API",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\JAD\\Blazor Web App\\UniversityApp.API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/UniversityApp.API",
+      "RelativePath": "UniversityApp.API#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "ff87m93p4l",
+      "Integrity": "azDiXK+VPHs94ij5a1dBqzAOX5ROUY+rMtHa+biLcBY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\JAD\\Blazor Web App\\UniversityApp.API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\UniversityApp.API.styles.css"
+    },
+    {
+      "Identity": "E:\\JAD\\Blazor Web App\\UniversityApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UniversityApp.bundle.scp.css",
+      "SourceId": "UniversityApp",
+      "SourceType": "Project",
+      "ContentRoot": "E:\\JAD\\Blazor Web App\\UniversityApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/UniversityApp",
+      "RelativePath": "UniversityApp#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "qlizb1y282",
+      "Integrity": "7ndK0jkutsdxfnugk419Jt9OuNNG8e9pcA+Ec3542cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\JAD\\Blazor Web App\\UniversityApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UniversityApp.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\air.jpg",
+      "SourceId": "UniversityApp",
+      "SourceType": "Project",
+      "ContentRoot": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\",
+      "BasePath": "_content/UniversityApp",
+      "RelativePath": "air#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q6c0fq8iqr",
+      "Integrity": "Tqv76FwZFg+CLkb1wX5M+5BqzqJ7cA3f67lQM2H5lwI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\air.jpg"
+    },
+    {
+      "Identity": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\app.css",
+      "SourceId": "UniversityApp",
+      "SourceType": "Project",
+      "ContentRoot": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\",
+      "BasePath": "_content/UniversityApp",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b67esbqj0h",
+      "Integrity": "0yOX7qmvfx0xYkgYvIdesXlkXP2SmTYEX+IjWjXUUoE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\app.css"
+    },
+    {
+      "Identity": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "UniversityApp",
+      "SourceType": "Project",
+      "ContentRoot": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\",
+      "BasePath": "_content/UniversityApp",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "UniversityApp",
+      "SourceType": "Project",
+      "ContentRoot": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\",
+      "BasePath": "_content/UniversityApp",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\favicon.png",
+      "SourceId": "UniversityApp",
+      "SourceType": "Project",
+      "ContentRoot": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\",
+      "BasePath": "_content/UniversityApp",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\favicon.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/UniversityApp/air.jpg",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\air.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tqv76FwZFg+CLkb1wX5M+5BqzqJ7cA3f67lQM2H5lwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 14:15:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tqv76FwZFg+CLkb1wX5M+5BqzqJ7cA3f67lQM2H5lwI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/UniversityApp/air.q6c0fq8iqr.jpg",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\air.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tqv76FwZFg+CLkb1wX5M+5BqzqJ7cA3f67lQM2H5lwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 14:15:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q6c0fq8iqr"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tqv76FwZFg+CLkb1wX5M+5BqzqJ7cA3f67lQM2H5lwI="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/UniversityApp/air.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "_content/UniversityApp/app.b67esbqj0h.css",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0yOX7qmvfx0xYkgYvIdesXlkXP2SmTYEX+IjWjXUUoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 02:58:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b67esbqj0h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0yOX7qmvfx0xYkgYvIdesXlkXP2SmTYEX+IjWjXUUoE="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/UniversityApp/app.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/UniversityApp/app.css",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0yOX7qmvfx0xYkgYvIdesXlkXP2SmTYEX+IjWjXUUoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 02:58:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0yOX7qmvfx0xYkgYvIdesXlkXP2SmTYEX+IjWjXUUoE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/UniversityApp/bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 07:59:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/UniversityApp/bootstrap/bootstrap.min.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/UniversityApp/bootstrap/bootstrap.min.css",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 07:59:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/UniversityApp/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 07:59:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/UniversityApp/bootstrap/bootstrap.min.css.map"
+        }
+      ]
+    },
+    {
+      "Route": "_content/UniversityApp/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 07:59:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/UniversityApp/favicon.ifv42okdf2.png",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 07:59:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/UniversityApp/favicon.png"
+        }
+      ]
+    },
+    {
+      "Route": "_content/UniversityApp/favicon.png",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 07:59:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/UniversityApp/UniversityApp.bundle.scp.css",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UniversityApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ndK0jkutsdxfnugk419Jt9OuNNG8e9pcA+Ec3542cw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 09:12:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7ndK0jkutsdxfnugk419Jt9OuNNG8e9pcA+Ec3542cw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/UniversityApp/UniversityApp.qlizb1y282.bundle.scp.css",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UniversityApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ndK0jkutsdxfnugk419Jt9OuNNG8e9pcA+Ec3542cw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 09:12:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qlizb1y282"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7ndK0jkutsdxfnugk419Jt9OuNNG8e9pcA+Ec3542cw="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/UniversityApp/UniversityApp.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "UniversityApp.API.ff87m93p4l.styles.css",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp.API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\UniversityApp.API.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"azDiXK+VPHs94ij5a1dBqzAOX5ROUY+rMtHa+biLcBY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 09:13:00 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/UniversityApp/UniversityApp.qlizb1y282.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ff87m93p4l"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-azDiXK+VPHs94ij5a1dBqzAOX5ROUY+rMtHa+biLcBY="
+        },
+        {
+          "Name": "label",
+          "Value": "UniversityApp.API.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "UniversityApp.API.styles.css",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp.API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\UniversityApp.API.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"azDiXK+VPHs94ij5a1dBqzAOX5ROUY+rMtHa+biLcBY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 09:13:00 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/UniversityApp/UniversityApp.qlizb1y282.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-azDiXK+VPHs94ij5a1dBqzAOX5ROUY+rMtHa+biLcBY="
+        }
+      ]
+    }
+  ]
+}

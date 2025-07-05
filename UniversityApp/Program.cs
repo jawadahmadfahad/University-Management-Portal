@@ -3,16 +3,23 @@ using UniversityApp.BLL.Services;
 using UniversityApp.Components;
 using UniversityApp.DAL;
 
+
+//google
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components.Server;
+using UniversityApp.BLL.Services.Api;
+
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Load configuration
 var config = builder.Configuration;
+
 
 // ✅ Google Authentication + Cookies
 builder.Services.AddAuthentication(options =>
@@ -27,6 +34,13 @@ builder.Services.AddAuthentication(options =>
     options.ClientSecret = "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";
     options.ClaimActions.MapJsonKey("urn:google:picture", "picture", "url");
 });
+
+// api service 
+builder.Services.AddHttpClient<CourseApiService>(client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7244/"); // Replace with your actual API URL
+});
+
 
 // ✅ Authorization services
 builder.Services.AddAuthorization();

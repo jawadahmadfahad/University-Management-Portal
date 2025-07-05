@@ -1,36 +1,90 @@
 ﻿@page "/"
 @layout MainLayout
-@using UniversityApp.Components.Layout
+@inject IStudentService StudentService
+@inject ICourseService CourseService
+@inject IFacultyService FacultyService
 
-<h1 class="display-4 text-primary mb-4">University Dashboard</h1>
+@using UniversityApp.Entities
 
-<div class="row">
-    <div class="col-md-4">
-        <div class="card shadow-sm mb-4 border-start border-primary border-4">
-            <div class="card-body">
-                <h5 class="card-title">Total Students</h5>
-                <p class="card-text fs-3 text-success">123</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card shadow-sm mb-4 border-start border-success border-4">
-            <div class="card-body">
-                <h5 class="card-title">Courses Offered</h5>
-                <p class="card-text fs-3 text-info">12</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card shadow-sm mb-4 border-start border-warning border-4">
-            <div class="card-body">
-                <h5 class="card-title">Faculties</h5>
-                <p class="card-text fs-3 text-warning">5</p>
-            </div>
-        </div>
+<PageTitle>Home</PageTitle>
+
+<div class="hero-banner text-white text-center d-flex align-items-center justify-content-center position-relative">
+    <div class="overlay w-100 h-100 position-absolute" style="background-color: rgba(0,0,0,0.5); top:0; left:0;"></div>
+    <div class="container position-relative z-2">
+        <h1 class="display-3 fw-bold mb-3">Welcome to <span class="text-warning">Air University</span></h1>
+        <p class="lead fs-4">Manage Students, Courses, and Faculties Professionally</p>
     </div>
 </div>
 
-<div class="alert alert-info mt-4">
-    This is your admin panel. You can manage students, courses, and faculty from the navigation menu.
+<div class="container mt-5">
+    <div class="row g-4 text-center">
+        <div class="col-md-4">
+            <div class="card shadow-sm border-start border-5 border-primary dashboard-card">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">Total Students</h5>
+                    <p class="display-6 fw-bold text-primary">@StudentCount</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm border-start border-5 border-success dashboard-card">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">Courses Offered</h5>
+                    <p class="display-6 fw-bold text-success">@CourseCount</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm border-start border-5 border-warning dashboard-card">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">Total Faculties</h5>
+                    <p class="display-6 fw-bold text-warning">@FacultyCount</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-info mt-5 shadow-sm">
+        <i class="bi bi-info-circle-fill me-2"></i>
+        <strong>Note:</strong> Use the sidebar to navigate and manage university data securely.
+    </div>
 </div>
+
+<style>
+    .hero-banner {
+        background: url('/air.jpg') no-repeat center center;
+        background-size: cover;
+        height: 350px;
+        border-radius: 0 0 1rem 1rem;
+        position: relative;
+    }
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .dashboard-card {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .dashboard-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+</style>
+
+@code {
+    private int StudentCount;
+    private int CourseCount;
+    private int FacultyCount;
+
+    protected override async Task OnInitializedAsync()
+    {
+        StudentCount = (await StudentService.GetAllStudentsAsync()).Count;
+        CourseCount = (await CourseService.GetAllCoursesAsync()).Count;
+        FacultyCount = (await FacultyService.GetAllFacultiesAsync()).Count;
+    }
+}

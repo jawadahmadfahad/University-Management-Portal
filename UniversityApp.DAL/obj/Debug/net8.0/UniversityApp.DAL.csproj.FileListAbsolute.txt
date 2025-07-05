@@ -8,6 +8,7 @@ E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.Gener
 E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.AssemblyInfoInputs.cache
 E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.AssemblyInfo.cs
 E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.csproj.CoreCompileInputs.cache
+E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.sourcelink.json
 E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\Universi.DD1DBE4C.Up2Date
 E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\UniversityApp.DAL.dll
 E:\JAD\Blazor Web App\UniversityApp.DAL\obj\Debug\net8.0\refint\UniversityApp.DAL.dll

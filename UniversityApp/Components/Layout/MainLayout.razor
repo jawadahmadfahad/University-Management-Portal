@@ -1,24 +1,82 @@
 ﻿@inherits LayoutComponentBase
 @using UniversityApp.Components.Layout
 
-<div class="page">
+<div class="layout-wrapper d-flex">
+    <!-- Sidebar -->
     <div class="sidebar">
         <NavMenu />
     </div>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
+    <!-- Main Area -->
+    <div class="main-area d-flex flex-column w-100">
+        <!-- Header -->
+        <header class="top-header d-flex justify-content-between align-items-center px-4 py-3">
+            <h4 class="m-0 fw-semibold text-white">Air University Admin Portal</h4>
+            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank" class="text-white text-decoration-none small">
+                <i class="bi bi-info-circle-fill me-1"></i> Learn ASP.NET Core
+            </a>
+        </header>
 
-        <article class="content px-4">
+        <!-- Main Content -->
+        <main class="main-content px-4 py-4 flex-grow-1">
             @Body
-        </article>
-    </main>
+        </main>
+    </div>
 </div>
 
+<!-- Blazor Error UI -->
 <div id="blazor-error-ui">
     An unhandled error has occurred.
     <a href="" class="reload">Reload</a>
     <a class="dismiss">🗙</a>
 </div>
+
+<style>
+/* Full page layout wrapper */
+.layout-wrapper {
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Sidebar already styled in NavMenu */
+.sidebar {
+    height: 100vh;
+}
+
+/* Header */
+.top-header {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Main area background */
+.main-area {
+    background-color: #f1f3f5; /* Soft light gray */
+}
+
+/* Main content area */
+.main-content {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+/* Blazor error UI */
+#blazor-error-ui {
+    background: #b32121;
+    color: white;
+    padding: 1rem 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1050;
+}
+
+#blazor-error-ui a {
+    color: white;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+</style>

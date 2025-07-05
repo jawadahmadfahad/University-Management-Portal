@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P6GfIJxY7LNd0dqVU5mU5AS6wYEK8susnh2VhIS+Ca0=",
+  "Hash": "mzfSDGrtPkM6vK2XLAahHSyl0LUD7GN+r7DmaTUahn4=",
   "Source": "UniversityApp",
   "BasePath": "_content/UniversityApp",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "E:\\JAD\\Blazor Web App\\UniversityApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UniversityApp.bundle.scp.css"
     },
     {
+      "Identity": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\air.jpg",
+      "SourceId": "UniversityApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\",
+      "BasePath": "_content/UniversityApp",
+      "RelativePath": "air#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q6c0fq8iqr",
+      "Integrity": "Tqv76FwZFg+CLkb1wX5M+5BqzqJ7cA3f67lQM2H5lwI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\air.jpg"
+    },
+    {
       "Identity": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\app.css",
       "SourceId": "UniversityApp",
       "SourceType": "Discovered",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pseagchbij",
-      "Integrity": "afn7vFVhWAJ8V2GIxpt8lQl6Ztsm7LhaB+Vvo6ETEuc=",
+      "Fingerprint": "b67esbqj0h",
+      "Integrity": "0yOX7qmvfx0xYkgYvIdesXlkXP2SmTYEX+IjWjXUUoE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -145,6 +166,133 @@
   ],
   "Endpoints": [
     {
+      "Route": "air.jpg",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\air.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tqv76FwZFg+CLkb1wX5M+5BqzqJ7cA3f67lQM2H5lwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 14:15:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tqv76FwZFg+CLkb1wX5M+5BqzqJ7cA3f67lQM2H5lwI="
+        }
+      ]
+    },
+    {
+      "Route": "air.q6c0fq8iqr.jpg",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\air.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tqv76FwZFg+CLkb1wX5M+5BqzqJ7cA3f67lQM2H5lwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 14:15:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q6c0fq8iqr"
+        },
+        {
+          "Name": "label",
+          "Value": "air.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tqv76FwZFg+CLkb1wX5M+5BqzqJ7cA3f67lQM2H5lwI="
+        }
+      ]
+    },
+    {
+      "Route": "app.b67esbqj0h.css",
+      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0yOX7qmvfx0xYkgYvIdesXlkXP2SmTYEX+IjWjXUUoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 02:58:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b67esbqj0h"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0yOX7qmvfx0xYkgYvIdesXlkXP2SmTYEX+IjWjXUUoE="
+        }
+      ]
+    },
+    {
       "Route": "app.css",
       "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\app.css",
       "Selectors": [],
@@ -155,7 +303,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2678"
+          "Value": "1227"
         },
         {
           "Name": "Content-Type",
@@ -163,11 +311,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"afn7vFVhWAJ8V2GIxpt8lQl6Ztsm7LhaB+Vvo6ETEuc=\""
+          "Value": "\"0yOX7qmvfx0xYkgYvIdesXlkXP2SmTYEX+IjWjXUUoE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 08:55:26 GMT"
+          "Value": "Fri, 04 Jul 2025 02:58:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -177,52 +325,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-afn7vFVhWAJ8V2GIxpt8lQl6Ztsm7LhaB+Vvo6ETEuc="
-        }
-      ]
-    },
-    {
-      "Route": "app.pseagchbij.css",
-      "AssetFile": "E:\\JAD\\Blazor Web App\\UniversityApp\\wwwroot\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2678"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"afn7vFVhWAJ8V2GIxpt8lQl6Ztsm7LhaB+Vvo6ETEuc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 08:55:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pseagchbij"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-afn7vFVhWAJ8V2GIxpt8lQl6Ztsm7LhaB+Vvo6ETEuc="
+          "Value": "sha256-0yOX7qmvfx0xYkgYvIdesXlkXP2SmTYEX+IjWjXUUoE="
         }
       ]
     },
@@ -495,7 +598,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 18:54:20 GMT"
+          "Value": "Thu, 03 Jul 2025 09:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -532,7 +635,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 18:54:20 GMT"
+          "Value": "Thu, 03 Jul 2025 09:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -577,7 +680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 18:54:20 GMT"
+          "Value": "Thu, 03 Jul 2025 09:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -622,7 +725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 18:54:20 GMT"
+          "Value": "Thu, 03 Jul 2025 09:12:59 GMT"
         },
         {
           "Name": "Cache-Control",

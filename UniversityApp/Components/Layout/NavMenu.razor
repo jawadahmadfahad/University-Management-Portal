@@ -3,12 +3,15 @@
 @using System.Security.Claims
 @using Microsoft.AspNetCore.Components.Routing
 
-<aside class="sidebar bg-gradient p-0 shadow-sm">
-    <div class="sidebar-header text-center py-4 bg-primary text-white fw-bold fs-4 border-bottom">
-        <i class="bi bi-mortarboard-fill me-2"></i>University Admin
+<aside class="sidebar shadow-lg">
+    <div class="sidebar-header text-center py-4 text-white border-bottom">
+        <h4 class="mb-0 fw-bold">
+            <i class="bi bi-building me-2 fs-4"></i>Air University
+        </h4>
+        <small class="text-light fst-italic">Admin Portal</small>
     </div>
 
-    <ul class="nav flex-column pt-3 px-2">
+    <ul class="nav flex-column pt-3 px-3">
         <li class="nav-item">
             <NavLink class="nav-link sidebar-link" href="/" Match="NavLinkMatch.All">
                 <i class="bi bi-house-door-fill me-2"></i> Home
@@ -34,8 +37,9 @@
     <div class="mt-auto px-3 pb-4 text-white small">
         @if (authUser != null && authUser.Identity?.IsAuthenticated == true)
         {
-                <div class="mb-2">
-                    <i class="bi bi-person-circle me-2"></i> @authUser.Identity.Name
+                <div class="mb-2 d-flex align-items-center">
+                    <i class="bi bi-person-circle me-2 fs-5"></i>
+                    <span>@authUser.Identity.Name</span>
                 </div>
                 <a class="btn btn-outline-light btn-sm w-100" href="/logout">Logout</a>
         }
@@ -55,34 +59,3 @@
         authUser = authState.User;
     }
 }
-
-<style>
-.sidebar {
-    width: 250px;
-    min-height: 100vh;
-    background: linear-gradient(180deg, #0d6efd 0%, #0a58ca 100%);
-    color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1030;
-    box-shadow: 2px 0 8px rgba(0,0,0,0.05);
-    display: flex;
-    flex-direction: column;
-}
-.sidebar-header {
-    letter-spacing: 1px;
-}
-.nav-link.sidebar-link {
-    color: #fff;
-    font-size: 1.1rem;
-    padding: 0.75rem 1.5rem;
-    border-radius: 0 2rem 2rem 0;
-    transition: background 0.2s, color 0.2s;
-}
-.nav-link.sidebar-link.active, .nav-link.sidebar-link:hover {
-    background: rgba(255,255,255,0.15);
-    color: #ffd700;
-    font-weight: 500;
-}
-</style>

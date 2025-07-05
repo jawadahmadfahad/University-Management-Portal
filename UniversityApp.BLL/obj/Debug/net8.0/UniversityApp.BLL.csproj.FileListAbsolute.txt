@@ -10,6 +10,7 @@ E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.Gener
 E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.AssemblyInfoInputs.cache
 E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.AssemblyInfo.cs
 E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.csproj.CoreCompileInputs.cache
+E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.sourcelink.json
 E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\Universi.16FCFA96.Up2Date
 E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\UniversityApp.BLL.dll
 E:\JAD\Blazor Web App\UniversityApp.BLL\obj\Debug\net8.0\refint\UniversityApp.BLL.dll
